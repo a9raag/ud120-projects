@@ -40,7 +40,7 @@ temp_counter = 0
 pattern = r"sara|shackleton|chris|germani|sarah|sshacklensf|cgermannsf"
 for name, from_person in [("sara", from_sara), ("chris", from_chris)]:
     for path in from_person:
-        # only look at first 200 emails when developing
+        # only look at first 200 emails when    developing
         # once everything is working, remove this line to run over full dataset
         temp_counter += 1
         if True:
